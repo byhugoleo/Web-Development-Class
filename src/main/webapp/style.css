@@ -31,7 +31,7 @@ img {
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ footer{
     justify-content: center;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     width: 15%;
     position: absolute;
@@ -108,7 +108,7 @@ footer{
     color: #EEEEEE;
 }
 
-.footer-links a{
+.footer-links a {
     text-decoration: none;
     color: #EEEEEE;
 }

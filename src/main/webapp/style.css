@@ -9,6 +9,8 @@ body {
     background: #607EAA;
     color: #EAE3D2;
     line-height: 1.6;
+    text-align: center;
+    width: 100%;
 }
 
 ul {
@@ -28,6 +30,22 @@ img {
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background-color: #fff;
+    color:#000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Navbar */
 .navbar {
     background-color: #F9F5EB;
@@ -36,15 +54,16 @@ img {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height: 5rem;
     position: fixed;
     top: 0px;
-    padding: 0 20px;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
 }
 .navbar a {
     color: #1C3879;
-    padding: 15px 20px;
-    margin: 0 5px;
+    padding: 1.5rem 2rem;
+    margin: 0 0.5rem;
     text-decoration: none;
 }
 .navbar ul {
@@ -68,10 +87,21 @@ img {
 }
 
 .content {
-    padding: 70px 20px;
-    margin: 2px 10px;
+    padding: 6rem 2rem;
+    margin: 0.5rem 1rem;
     align-items: center;
     text-align: center;
     height: 100%;
     justify-content: center;
 }
+
+.footer-links{
+    display: flex;
+    width: 15%;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+

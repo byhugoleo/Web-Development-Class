@@ -1,0 +1,21 @@
+.references-table{
+    margin: 1rem auto;
+    width: 95%;
+}
+.references-table thead tr th {
+    background-color: #333;
+}
+.references-table-row{
+    border: 2px solid #333;
+}
+.references-table-row td {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+}
+@media (max-width:576px) {
+    .footer-links{
+        flex-direction:column;
+        justify-content: space-between;
+    }
+}

@@ -66,10 +66,11 @@ footer{
     padding: 0 2rem;
     margin-bottom: 1rem;
 }
+
 .navbar a {
     color: #EEEEEE;
-    padding: 1.5rem 2rem;
-    margin: 0 0.5rem;
+    padding: 1rem 2rem;
+    /* margin: 0 0.5rem; */
     text-decoration: none;
 }
 .navbar ul {
@@ -116,4 +117,24 @@ footer{
 .footer-links a {
     text-decoration: none;
     color: #EEEEEE;
+}
+
+/* Mobile */
+@media(max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+
+    }
+    .navbar a {
+        padding: 1rem 1rem;
+    }
+    .navbar h1 {
+        padding: 0.5rem;
+        line-height: 0.8;
+    }
+    .navbar a:hover {
+        border-top: #00ADB5 2px solid;
+        border-bottom: 0px;
+    }
 }

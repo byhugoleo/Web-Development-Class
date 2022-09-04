@@ -3,16 +3,25 @@
     width: 95%;
 }
 .references-table thead tr th {
-    background-color: #333;
+    background-color: #222831;
 }
 .references-table-row{
-    border: 2px solid #333;
+    border: 2px solid #222831;
 }
 .references-table-row td {
-    background-color: #fff;
-    color: #333;
+    background-color: #EEEEEE;
+    color: #222831;
     padding: 1rem;
 }
+
+.references-table a{
+    color: #00ADB5;
+}
+
+.references-table a:hover{
+    opacity: 0.85;
+}
+
 @media (max-width:576px) {
     .footer-links{
         flex-direction:column;

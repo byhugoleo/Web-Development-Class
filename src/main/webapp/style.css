@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 p {
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 img {
@@ -45,6 +45,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 
 /* Navbar */
 .navbar {
@@ -97,7 +98,7 @@ footer{
 
 .footer-links{
     display: flex;
-    width: 15%;
+    width: 20%;
     position: absolute;
     right: 0;
     align-items: center;
@@ -105,3 +106,24 @@ footer{
     justify-content: space-around;
 }
 
+.references-table{
+    margin-top: 1rem auto 0;
+    width: 90%;
+}
+.references-table thead tr th {
+    background-color: #333;
+}
+.references-table-row{
+    border: 2px solid #333;
+}
+.references-table-row td {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+}
+@media (max-width:576px) {
+    .footer-links{
+        flex-direction:column;
+        justify-content: space-between;
+    }
+}

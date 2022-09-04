@@ -104,7 +104,7 @@ footer{
 .footer-links {
     display: flex;
     width: 20%;
-    position: absolute;
+    position: fixed;
     right: 0;
     align-items: center;
     justify-items: center;
@@ -117,4 +117,3 @@ footer{
     text-decoration: none;
     color: #EEEEEE;
 }
-

@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style.css" type="text/css"/>
-    <link rel="stylesheet" href="./audio.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
-    <title>Audio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- <link rel="stylesheet" href="./em.css" type="text/css" /> -->
+    <title>audio</title>
 </head>
 <body>
     <header>
@@ -23,43 +26,73 @@
         </div>
     </header>
     <main class="content">
-        <h1><code><b>&lt;audio&gt;</b></code></h1>
-            <section>
-                <div>
-                    <p>
-                        O elemento <b>&lt;audio&gt;</b> é usado para reproduzir áudios em páginas Web.
-                    </p>
-                </div>
-                <div class="example">
-                    <h3>Exemplo</h3>
-                    <div class="htmlcode">
-                        <pre><code>
-                            &lt;audio controls autoplay&gt;
-                                &lt;source src="horse.ogg" type="audio/ogg"&gt;
-                                &lt;source src="horse.mp3" type="audio/mpeg"&gt;
-                            Your browser does not support the audio element.
-                            &lt;audio&gt;</code>
-                                </pre>
-                    </div>
-                </div>
-                <div class="definition">
-                    <h2>Definição e uso</h2>
-                    <p>A tag <b>&lt;audio&gt;</b> é usada para incorporar conteúdo sonoro em um documento, como música ou outros fluxos de áudio. </p>
-                    <p>Ela contém uma ou mais tags <b>&lt;source&gt;</b> com diferentes fontes de áudio. O navegador escolherá a primeira fonte que tenha suporte. </p>
-                    <p>O texto entre as tags <b>&lt;audio&gt;</b> and <b>&lt;\audio&gt;</b> serão exibidas apenas em navegadores que não tem suporte ao elemento de áudio.</p>
-                    <p>Existem três formatos de áudio com suporte em HTML: MP3, WAV e OGG.</p>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <button class="btn" onclick="location.href='../../pages/references/references.html'">
-                        Anterior
-                    </button>                    
-                    <button class="btn" onclick="location.href='../basefont/basefont.html'">
-                        Próximo
-                    </button>
-                </div>
-            </section>
+        <h1>Tag <code><b>&lt;audio&gt;</b></code></h1>
+        <div class="shared-div-btn">
+            <button class="btn" onclick="location.href='../tfoot/tfoot.html'"> <!-- TODO edit -->
+                Anterior
+            </button>                    
+            <button class="btn" onclick="location.href='../basefont/basefont.html'"> <!-- TODO edit -->
+                Próximo
+            </button>
+        </div>
+        <section class="shared-section">
+            <h2>Exemplo</h2>
+            <!-- <p>Marque o texto enfatizado em um documento:</p> -->
+            <div class="shared-cod-example">
+                <pre><code>
+                    <span>&lt;audio controls&gt;</audio></span>
+                    <span>  &lt;source src="horse.ogg" type="audio/ogg"&gt;</span>
+                    <span>  &lt;source src="horse.mp3" type="audio/mpeg"&gt;</span>
+                    <span>Seu navegador não oferece suporte ao elemento de áudio.</span>
+                    <span>&lt;/audio&gt;</span>
+                    <!-- <span>&lt;p&gt;You &lt;em&gt;have&lt;/em&gt; to hurry up!&lt;/p&gt;</span> -->
+                    <!-- <span>&lt;p&gt;We &lt;em&gt;cannot&lt;/em&gt; live like this.</span> -->
+                </code></pre>
+            </div>
+        </section>
+        <section class="shared-section">
+            <h2>Definição e uso</h2>
+            <pre><code>
+                <span>A tag &lt;audio&gt; é usada para incorporar conteúdo sonoro em um documento, como música ou outros fluxos de áudio.</span>
+                <span>Ela contém uma ou mais tags &lt;source&gt; com diferentes fontes de áudio. O navegador escolherá a primeira fonte que tenha suporte.</span>
+                <span>O texto entre as tags &lt;audio&gt; and &lt;\audio&gt; serão exibidas apenas em navegadores que não tem suporte ao elemento de áudio.</span>
+                <span>Existem três formatos de áudio com suporte em HTML: MP3, WAV e OGG.</span>
+            </code></pre>
+        </section>
+        <section class="shared-section">
+            <h2>Suporte ao navegador</h2>
+            <table class="shared-table-suport">
+                <thead>
+                    <tr class="shared-table-row">
+                        <th>Elemento</th>
+                        <th>Chrome</th>
+                        <th>Explorer</th>
+                        <th>Mozila</th>
+                        <th>Safari</th>
+                        <th>Opera</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="shared-table-row">
+                        <td>&lt;audio&gt;</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <div class="shared-div-btn">
+            <button class="btn" onclick="location.href='../audio/audio.html'">
+                Anterior
+            </button>                    
+            <button class="btn" onclick="location.href='../basefont/basefont.html'">
+                Próximo
+            </button>
+        </div>
     </main>
     <footer>
         <div class="footer-links">
@@ -68,5 +101,6 @@
         </div>
         <p >Copyright &copy; 2022 </p>
     </footer>
+    
 </body>
 </html>

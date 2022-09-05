@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style.css" type="text/css"/>
-    <title>h1-h6</title>
+    <title>tfoot</title>
 </head>
 <body>
     <header>
@@ -22,35 +22,54 @@
     </header>
 
     <main class="content">
-        <h1>Tag <code><b>&lt;h1-h6&gt;</b></code></h1>
+        <h1>Tag <code><b>&lt;tfoot&gt;</b></code></h1>
         <div class="shared-div-btn">
-            <button class="btn" onclick="location.href='../frame/frame.html'">
+            <button class="btn" onclick="location.href='../tbody/tbody.html'">
                 Anterior
             </button>                    
-            <button class="btn" onclick="location.href='../main/main.html'">
+            <button class="btn" onclick="location.href='../audio/audio.html'">
                 Próximo
             </button>
         </div>
         <section class="shared-section">
             <h2>Exemplo</h2>
-            <p>Os seis títulos HTML diferentes:</p>
+            <p>Um tabela HTML com elementos &lt;thead&gt;, &lt;tbody&gt;, e &lt;tfoot&gt;:</p>
             <div class="shared-cod-example">
                 <pre><code>
-                    <span>&lt;h1&gt;Este é o título 1&lt;/h1&gt;</span>
-                    <span>&lt;h2&gt;Este é o título 2&lt;/h2&gt;</span>
-                    <span>&lt;h3&gt;Este é o título 3&lt;/h3&gt;</span>
-                    <span>&lt;h4&gt;Este é o título 4&lt;/h4&gt;</span>
-                    <span>&lt;h5&gt;Este é o título 5&lt;/h5&gt;</span>
-                    <span>&lt;h6&gt;Este é o título 6&lt;/h6&gt;</span>
+                    <span>&lt;table&gt;</span>
+                    <span>  &lt;thead&gt;</span>
+                    <span>      &lt;tr&gt;</span>
+                    <span>          &lt;th&gt;Mês&lt;/th&gt;</span>
+                    <span>          &lt;th&gt;Economia&lt;/th&gt;</span>
+                    <span>      &lt;/tr&gt;</span>
+                    <span>  &lt;/thead&gt;</span>
+                    <span>  &lt;tbody&gt;</span>
+                    <span>      &lt;tr&gt;</span>
+                    <span>          &lt;td&gt;Janeiro&lt;/td&gt;</span>
+                    <span>          &lt;td&gt;R$100&lt;/td&gt;</span>
+                    <span>      &lt;/tr&gt;</span>
+                    <span>      &lt;tr&gt;</span>
+                    <span>          &lt;td&gt;Fevereiro&lt;/td&gt;</span>
+                    <span>          &lt;td&gt;R$300&lt;/td&gt;</span>
+                    <span>      &lt;/tr&gt;</span>
+                    <span>  &lt;/tbody&gt;</span>
+                    <span>  &lt;tfoot&gt;</span>
+                    <span>      &lt;tr&gt;</span>
+                    <span>          &lt;td&gt;Soma&lt;/td&gt;</span>
+                    <span>          &lt;td&gt;R$400&lt;/td&gt;</span>
+                    <span>      &lt;/tr&gt;</span>
+                    <span>  &lt;/tfoot&gt;</span>
+                    <span>&lt;/table&gt;</span>
                 </code></pre>
             </div>
         </section>
         <section class="shared-section">
             <h2>Definição e uso</h2>
             <pre><code>
-                <span>As tags to são usadas para definir títulos HTML. &lt;h1&gt;&lt;h6&gt;</span>
-                <span>&lt;h1&gt; define o título mais importante. define o título menos importante. &lt;h6&gt;</span>
-                <span><br><b>Nota:</b> Use apenas um por página - este deve representar o título/assunto principal para toda a página.<br>Além disso, não pule os níveis de posição - comece com , depois use , e assim por diante. &lt;h1&gt;&lt;h1&gt;&lt;h2&gt;</span>
+                <span>A tag é usada para agrupar conteúdo de rodapé em uma tabela HTML. &lt;tfoot&gt;</span>
+                <span>O elemento é usado em conjunto com os elementos &lt;thead&gt; e &lt;tbody&gt; para especificar cada parte de uma mesa (rodapé, cabeçalho, corpo). &lt;tfoot&gt;</span>
+                <span>Os navegadores podem usar esses elementos para permitir a rolagem do corpo da tabela independentemente do cabeçalho e do rodapé.<br>Além disso, ao imprimir uma grande tabela que abrange várias páginas, esses elementos podem permitir que o cabeçalho e o rodapé<br>da mesa sejam impressos na parte superior e inferior de cada página.</span>
+                <span><br><b>Nota:</b> O elemento deve ter uma ou mais tags &lt;tr&gt; dentro. &lt;tfoot&gt;</span>
             </code></pre>
         </section>
         <section class="shared-section">
@@ -68,7 +87,7 @@
                 </thead>
                 <tbody>
                     <tr class="shared-table-row">
-                        <td>&lt;h1-h6&gt;</td>
+                        <td>&lt;tfoot&gt;</td>
                         <td>Sim</td>
                         <td>Sim</td>
                         <td>Sim</td>
@@ -80,10 +99,10 @@
             </table>
         </section>
         <div class="shared-div-btn">
-            <button class="btn" onclick="location.href='../frame/frame.html'">
+            <button class="btn" onclick="location.href='../tbody/tbody.html'">
                 Anterior
             </button>                    
-            <button class="btn" onclick="location.href='../main/main.html'">
+            <button class="btn" onclick="location.href='../audio/audio.html'">
                 Próximo
             </button>
         </div>

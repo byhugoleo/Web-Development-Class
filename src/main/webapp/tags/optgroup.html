@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css" type="text/css"/>
+    <link rel="stylesheet" href="./optgroup.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
     <title>Optgroup</title>
 </head>
@@ -32,7 +33,25 @@
             </button>
         </div>
         <section class="shared-section">
+            <h2>Exemplo</h2>
+            <p>Agrupe opções relacionadas com tags &lt;optgroup&gt;:</p>
+            <div class="shared-cod-example">
+                <pre><code>
+                    <span>&lt;label for="cars"&gt;Choose a car:&lt;/label&gt;</span>
+                    <span>&lt;select name="cars" id="cars"&gt;</span>
+                    <span>  &lt;optgroup label="Swedish Cars&gt;</span>
+                    <span>    &lt;option value="volvo"&gt;Volvo&lt;/option&gt;</span>
+                    <span>    &lt;option value="saab"&gt;Saab&lt;/option&gt;</span>
+                    <span>  &lt;/optgroup&gt;</span>
+                    <span>  &lt;optgroup label="German Cars&gt;</span>
+                    <span>    &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;</span>
+                    <span>    &lt;option value="audi"&gt;Audi&lt;/option&gt;</span>
+                    <span>  &lt;/optgroup&gt;</span>
+                    <span>&lt;/select&gt;</span>
+                </code></pre>
+            </div>
         </section>
+        
         <section class="shared-section">
             <h2>Definição e uso</h2>
             <pre><code>
@@ -41,36 +60,60 @@
             </code></pre>
         </section>
         <section class="shared-section">
+            <h2>Atributos</h2>
+            <table class="shared-table-suport">
+                <thead>
+                    <tr class="shared-table-row">
+                        <th class="shared-table-cell">Atributo</th>
+                        <th class="shared-table-cell">Valor</th>
+                        <th class="shared-table-cell">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="shared-table-row">
+                        <td class="optgroup-table-cell">disabled</td>
+                        <td class="optgroup-table-cell">disabled</td>
+                        <td class="optgroup-table-cell">Especifica que um grupo de opções deve ser desabilitado</td>
+                    </tr>
+                    <tr class="shared-table-row">
+                        <td class="optgroup-table-cell">label</td>
+                        <td class="optgroup-table-cell">text</td>
+                        <td class="optgroup-table-cell">Especifica um rótulo para um grupo de opções</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="shared-section">
             <h2>Suporte ao navegador</h2>
             <table class="shared-table-suport">
                 <thead>
                     <tr class="shared-table-row">
-                        <th>Elemento</th>
-                        <th style="background-color: #fff;">
+                        <th class="shared-table-cell">Elemento</th>
+                        <th class="shared-table-cell" style="background-color: #fff;">
                             <img src="../images/google.png" alt="Google Chrome Compatível" width="36" height="36" style="vertical-align:middle;"/>
                         </th>
-                        <th style="background-color: #fff;">
+                        <th class="shared-table-cell" style="background-color: #fff;">
                             <img src="../images/explorer.png" alt="Explorer Compatível" width="36" height="36" style="vertical-align:middle;"/>
                         </th>
-                        <th style="background-color: #fff;">
+                        <th class="shared-table-cell" style="background-color: #fff;">
                             <img src="../images/mozilla.png" alt="Mozilla Compatível" width="36" height="36" style="vertical-align:middle;"/>
                         </th>
-                        <th style="background-color: #fff;">
+                        <th class="shared-table-cell" style="background-color: #fff;">
                             <img src="../images/safari.png" alt="Safari Compatível" width="36" height="36" style="vertical-align:middle;"/>
                         </th>
-                        <th style="background-color: #fff;">
+                        <th class="shared-table-cell" style="background-color: #fff;">
                             <img src="../images/opera.png" alt="Opera Compatível" width="36" height="36" style="vertical-align:middle;"/>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="shared-table-row">
-                        <td>&lt;audio&gt;</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
+                        <td class="shared-table-cell">&lt;audio&gt;</td>
+                        <td class="shared-table-cell">Sim</td>
+                        <td class="shared-table-cell">Sim</td>
+                        <td class="shared-table-cell">Sim</td>
+                        <td class="shared-table-cell">Sim</td>
+                        <td class="shared-table-cell">Sim</td>
                     </tr>
 
                 </tbody>

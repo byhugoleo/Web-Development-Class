@@ -172,3 +172,42 @@ footer{
     text-align: center;
     padding: 0.5rem;
 }
+
+.div-tools{
+    margin: 2rem auto 0;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.card-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.card-tools p {
+    font-size: smaller;
+}
+
+.div-image-tools{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    max-width: 10rem;
+    /* width: 8.5rem; */
+    height: 10rem;
+}
+
+.image-tools{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50% 50%; */
+}
+
+.add-padding {
+    padding: 1.5rem 0rem;
+}

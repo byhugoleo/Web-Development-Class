@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style.css" type="text/css"/>
     <link rel="stylesheet" href="./optgroup.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
-    <title>tbody</title>
+    <title>rp</title>
 </head>
 <body>
     <header>
@@ -23,47 +23,23 @@
         </div>
     </header>
     <main class="content">
-        <h1 class="audio-title">tbody</h1>
+        <h1 class="audio-title">rp</h1>
         <div class="shared-div-btn">
-            <button class="btn" onclick="location.href='./strong.html'"> <!-- TODO edit -->
+            <button class="btn" onclick="location.href='./optgroup.html'"> <!-- TODO edit -->
                 Anterior
             </button>                    
-            <button class="btn" onclick="location.href='./tfoot.html'"> <!-- TODO edit -->
+            <button class="btn" onclick="location.href='./ruby.html'"> <!-- TODO edit -->
                 Próximo
             </button>
         </div>
         <section class="shared-section">
             <h2>Exemplo</h2>
-            <p>Uma tabela HTML com elementos &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt;:</p>
+            <p>Uma anotação de ruby:</p>
             <div class="shared-cod-example">
                 <pre><code>
-                    <span>&lt;table&gt;</span>
-                    <span>  &lt;thead&gt;</span>
-                    <span>      &lt;tr&gt;</span>
-                    <span>          &lt;th&gt;Mês&lt;\th&gt;</span>
-                    <span>          &lt;th&gt;Orçamento&lt;\th&gt;</span>
-                    <span>      &lt;/tr&gt;</span>
-                    <span>  &lt;/thead&gt;</span>
-                    <span>  &lt;tbody&gt;</span>
-                    <span>      &lt;tr&gt;</span>
-                    <span>          &lt;td&gt;Janeiro&lt;\td&gt;</span>
-                    <span>          &lt;td&gt;R$100&lt;\td&gt;</span>
-                    <span>      &lt;/tr&gt;</span>
-                    <span>      &lt;tr&gt;</span>
-                    <span>          &lt;td&gt;Fevereiro&lt;\td&gt;</span>
-                    <span>          &lt;td&gt;R$80&lt;\td&gt;</span>
-                    <span>      &lt;/tr&gt;</span>
-                    <span>  &lt;/tbody&gt;</span>
-                    <span>  &lt;tfoot&gt;</span>
-                    <span>      &lt;tr&gt;</span>
-                    <span>          &lt;td&gt;Soma&lt;\td&gt;</span>
-                    <span>          &lt;td&gt;R$100&lt;\td&gt;</span>
-                    <span>      &lt;/tr&gt;</span>
-                    <span>  &lt;/tfoot&gt;</span>
-                    <span>&lt;/table&gt;</span>
-                    
-                    
-                    
+                    <span>&lt;ruby&gt;</span>
+                    <span>漢 &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ㄏㄢˋ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;</span>
+                    <span>&lt;/ruby&gt;</span>           
                 </code></pre>
             </div>
         </section>
@@ -71,11 +47,10 @@
         <section class="shared-section">
             <h2>Definição e uso</h2>
             <pre><code>
-                <span>A tag &lt;tbody&gt; é usada para agrupar conteúdo de body em uma tabela HTML.</span>
-                <span>O elemento &lt;tbody&gt; é usado em conjunto com os elementos &lt;thead&gt; e &lt;tfoot&gt; para especificar cada parte de uma tabela (body, header, footer).</span>
-                <span>Navegadores podem usar estes elementos para permitir a rolagem do corpo da tabela independentemente do cabeçalho(header) e do rodapé(footer).</span>
-                <span>Além disso, ao imprimir uma tabela grande que abrange várias páginas, esses elementos podem permitir que o cabeçalho e o rodapé da tabela sejam impressos na parte superior e inferior de cada página.</span>
-                <span><b>Nota: </b> O elemento &lt;tbody&gt; deve ter uma ou mais tags &lt;tr&gt; encapsuladas.</span>
+                <span>A tag &lt;rp&gt; pode ser usada para acrescentar parênteses em torno de um texto de ruby, para ser mostrado em navegadores que não oferecem suporte a anotações de ruby.</span>
+                <span>Use &lt;rp&gt; com &lt;ruby&gt; e &lt;rt&gt;:</span>
+                <span>O elemento ruby consiste de um ou mais carácteres que necessitam de explicação/pronúncia,</span>
+                <span>um elemento &lt;rt&gt; que dá essa informação e um elemento &lt;rp&gt; opcional que define o que mostrar em navegadores que não oferecem suporte a anotações de ruby.</span>
             </code></pre>
         </section>
         <!-- <section class="shared-section">
@@ -104,6 +79,7 @@
         </section> -->
         <section class="shared-section">
             <h2>Suporte ao navegador</h2>
+            <p>Os números na tabela especificam a primeira versão do browser que oferece suporte ao elemento.</p>
             <table class="shared-table-suport">
                 <thead>
                     <tr class="shared-table-row">
@@ -128,21 +104,21 @@
                 <tbody>
                     <tr class="shared-table-row">
                         <td class="shared-table-cell">&lt;main&gt;</td>
-                        <td class="shared-table-cell">Sim</td>
-                        <td class="shared-table-cell">Sim</td>
-                        <td class="shared-table-cell">Sim</td>
-                        <td class="shared-table-cell">Sim</td>
-                        <td class="shared-table-cell">Sim</td>
+                        <td class="shared-table-cell">5.0</td>
+                        <td class="shared-table-cell">5.5</td>
+                        <td class="shared-table-cell">38.0</td>
+                        <td class="shared-table-cell">5.0</td>
+                        <td class="shared-table-cell">15.0</td>
                     </tr>
 
                 </tbody>
             </table>
         </section>
         <div class="shared-div-btn">
-            <button class="btn" onclick="location.href='./strong.html'"> <!-- TODO edit -->
+            <button class="btn" onclick="location.href='./optgroup.html'"> <!-- TODO edit -->
                 Anterior
             </button>                    
-            <button class="btn" onclick="location.href='./tfoot.html'"> <!-- TODO edit -->
+            <button class="btn" onclick="location.href='./ruby.html'"> <!-- TODO edit -->
                 Próximo
             </button>
         </div>
